@@ -106,6 +106,7 @@
 		overflow: hidden;
 		flex-shrink: 0;
 		display: flex;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 	}
 
 	.title {
@@ -115,12 +116,12 @@
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.description {
+		font-family: 'Roboto', sans-serif;
 		align-self: stretch;
 		position: relative;
 		font-size: var(--font-size-base);
 		letter-spacing: 0.1em;
 		color: var(--color-black);
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 	}
 	.container1 {
 		width: 53.75rem;
@@ -153,6 +154,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.title1 {
 		align-self: stretch;
@@ -228,6 +230,7 @@
 		align-items: center;
 		justify-content: flex-start;
 		gap: var(--gap-5xs);
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.user {
 		align-self: stretch;
