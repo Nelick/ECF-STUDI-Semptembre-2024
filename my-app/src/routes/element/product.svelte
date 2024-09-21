@@ -216,9 +216,10 @@
 	}
 	.card:hover {
 		transform: translateY(-10px);
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		box-shadow:
+			0 4px 8px rgba(0, 0, 0, 0.2),
+			0 0 10px rgba(255, 255, 255, 0.5); /* Ajout de l'effet de surbrillance */
 	}
-
 	.title3 {
 		position: absolute;
 		width: calc(100% - 32px);
