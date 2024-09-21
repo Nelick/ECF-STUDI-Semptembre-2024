@@ -3,6 +3,7 @@
 	import Header from './element/header.svelte';
 	import Product from './element/product.svelte';
 	import Contents from './element/contents.svelte';
+	import Footer from './element/footer.svelte';
 </script>
 
 <div class="container">
@@ -17,6 +18,9 @@
 	</div>
 	<div class="contents">
 		<Contents />
+	</div>
+	<div class="footer">
+		<Footer />
 	</div>
 </div>
 

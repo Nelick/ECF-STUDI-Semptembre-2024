@@ -156,7 +156,7 @@
 		text-align: left;
 	}
 	.image {
-		align-self:center;
+		align-self: center;
 		flex: 1;
 		position: relative;
 		background-image: url('image.png');
@@ -210,13 +210,14 @@
 		align-items: center;
 		justify-content: flex-start;
 		color: var(--color-white);
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
 	}
 	.card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
+		transform: translateY(-10px);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	}
 
 	.title3 {
 		position: absolute;
@@ -264,6 +265,15 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-start;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
+	}
+	.card1:hover {
+		transform: translateY(-10px);
+		box-shadow:
+			0 4px 8px rgba(0, 0, 0, 0.2),
+			0 0 10px rgba(255, 255, 255, 0.5); /* Ajout de l'effet de surbrillance */
 	}
 	.tag2 {
 		position: absolute;
