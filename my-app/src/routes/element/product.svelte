@@ -8,7 +8,7 @@
 			<div class="description">Découvrez nos jeux vidéo les plus innovants !</div>
 		</div>
 		<div class="image-container">
-			<img class="image-icon" alt="" src="image.png" />
+			<img class="image-icon" alt="" src="background 2.jpeg" />
 		</div>
 	</div>
 	<div class="list">
@@ -16,7 +16,7 @@
 			<div class="card">
 				<div class="image-container1">
 					<div class="image">
-						<div class="title1">Game Cover</div>
+						<img class="image-container1" alt="jeux indi" src="Pixel_travler.jpeg" />
 						<div class="tag">
 							<div class="text">New</div>
 						</div>
@@ -30,7 +30,7 @@
 			<div class="card1">
 				<div class="image-container1">
 					<div class="image">
-						<div class="title3">Game Cover</div>
+						<img class="image-container1" alt="indi game" src="Zelgts_game.jpeg" />
 						<div class="tag1">
 							<div class="text">Popular</div>
 						</div>
@@ -44,6 +44,7 @@
 			<div class="card1">
 				<div class="image-container1">
 					<div class="image">
+						<img class="image-container1" alt="indi game" src="pixel_csgo.jpeg" />
 						<div class="title3">Game Cover</div>
 						<div class="tag2">
 							<div class="text">Classic</div>
@@ -59,7 +60,6 @@
 			</div>
 		</div>
 	</div>
-	<img class="products-child" alt="" src="Vector 200.svg" />
 </div>
 
 <style>
@@ -104,7 +104,7 @@
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.container1 {
-		width: 53.75rem;
+		width: 53, 75rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -112,10 +112,11 @@
 		gap: 1.5rem;
 	}
 	.image-icon {
-		width: 11.25rem;
+		width: 100%;
+		max-height: 100%;
 		position: relative;
-		height: 11.25rem;
-		object-fit: cover;
+		object-fit: fill;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.image-container {
 		width: 11.25rem;
@@ -136,17 +137,6 @@
 		gap: var(--gap-41xl);
 		z-index: 0;
 	}
-	.title1 {
-		position: absolute;
-		width: calc(100% - 32px);
-		top: calc(50% - 8px);
-		left: 1rem;
-		line-height: 1rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 1rem;
-	}
 	.text {
 		position: relative;
 		line-height: 1rem;
@@ -166,7 +156,7 @@
 		text-align: left;
 	}
 	.image {
-		align-self: stretch;
+		align-self:center;
 		flex: 1;
 		position: relative;
 		background-image: url('image.png');
@@ -176,7 +166,8 @@
 	}
 	.image-container1 {
 		align-self: stretch;
-		height: 21.25rem;
+		max-height: auto;
+		width: 100%;
 		overflow: hidden;
 		flex-shrink: 0;
 		display: flex;
@@ -219,7 +210,14 @@
 		align-items: center;
 		justify-content: flex-start;
 		color: var(--color-white);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
 	}
+	.card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+
 	.title3 {
 		position: absolute;
 		width: calc(100% - 32px);
@@ -316,18 +314,7 @@
 		font-size: var(--font-size-xs);
 		color: var(--color-black);
 	}
-	.products-child {
-		width: 100%;
-		position: absolute;
-		margin: 0 !important;
-		right: 0rem;
-		bottom: -0.031rem;
-		left: 0rem;
-		max-width: 100%;
-		overflow: hidden;
-		max-height: 100%;
-		z-index: 2;
-	}
+
 	.products {
 		width: 100%;
 		position: relative;

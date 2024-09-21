@@ -12,6 +12,20 @@
 </div>
 
 <style>
+	@keyframes gameboy-advance {
+		0% {
+			color: #fff;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		50% {
+			color: #ffcc00;
+			text-shadow: 0px 4px 4px rgba(255, 204, 0, 0.5);
+		}
+		100% {
+			color: #fff;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+	}
 	.title {
 		width: 32.5rem;
 		position: relative;
@@ -22,6 +36,7 @@
 		color: #fff;
 		text-align: center;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		animation: gameboy-advance 3s infinite;
 	}
 	.description {
 		width: 32.5rem;
