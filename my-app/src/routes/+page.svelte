@@ -4,6 +4,7 @@
 	import Product from './element/product.svelte';
 	import Contents from './element/contents.svelte';
 	import Footer from './element/footer.svelte';
+	import  Actu from './element/page/actualite.svelte';
 </script>
 
 <div class="container">

@@ -116,6 +116,7 @@
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.description {
+		margin-right: 5rem;
 		font-family: 'Roboto', sans-serif;
 		align-self: stretch;
 		position: relative;
@@ -163,16 +164,20 @@
 		font-weight: 500;
 		color: rgba(0, 0, 0, 0.81);
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		padding-left: 2rem;
+		padding-top: 1rem;
 	}
 	.subtitle {
 		align-self: stretch;
 		position: relative;
 		font-size: var(--font-size-base);
 		line-height: 1.5rem;
+		padding-left: 2rem;
 	}
 	.label-text {
 		position: relative;
 		line-height: 1rem;
+		font-size: var(--font-size-xs);
 	}
 	.label-normal {
 		border-radius: var(--br-11xs);
@@ -192,7 +197,7 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: flex-start;
-		padding: var(--padding-9xs) 0rem;
+		padding: var(--padding-9xs) 2rem;
 		font-size: var(--font-size-xs);
 	}
 	.avatar1 {
@@ -214,6 +219,7 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		
 	}
 	.title-wrapper {
 		flex: 1;
@@ -257,6 +263,8 @@
 		font-weight: 500;
 		color: rgba(0, 0, 0, 0.8);
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		padding-left: 2rem;
+		padding-top: 1rem;
 	}
 	.subtitle1 {
 		align-self: stretch;
@@ -264,6 +272,7 @@
 		font-size: var(--font-size-base);
 		line-height: 1.5rem;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		padding-left: 2rem;
 	}
 	.article1 {
 		flex: 1;

@@ -1,4 +1,11 @@
 <script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		document.querySelector('.tab').addEventListener('click', () => {
+			window.location.href = '/';
+		});
+	});
 </script>
 
 <div class="top-bar">
@@ -6,7 +13,7 @@
 	<div class="title">GameStore</div>
 	<div class="navigation">
 		<div class="tab">Accueille</div>
-		<div class="tab">Actualite</div>
+		<div class="tab">Actualité</div>
 		<div class="tab">Jeux</div>
 		<div class="tab">Précommande</div>
 		<div class="tab">Nouveauté</div>
